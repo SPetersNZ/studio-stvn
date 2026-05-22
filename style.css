@@ -171,18 +171,18 @@ nav {
   66% { transform: rotate(-1deg); }
 }
 
-.m1 { left: 60px; width: 10px; height: 380px; background: #C8A97E; animation-delay: 0s; }
-.m2 { left: 88px; width: 10px; height: 420px; background: #A0785A; animation-delay: 0.8s; }
-.m3 { left: 116px; width: 10px; height: 460px; background: #D4B896; animation-delay: 1.6s; }
-.m4 { left: 144px; width: 10px; height: 400px; background: #8C6E45; animation-delay: 2.4s; }
-.m5 { left: 172px; width: 10px; height: 440px; background: #BFA882; animation-delay: 3.2s; }
+.m1 { left: 60px; width: 10px; height: 380px; background: #E8E4DC; animation-delay: 0s; }
+.m2 { left: 88px; width: 10px; height: 420px; background: #1C1C1A; animation-delay: 0.8s; }
+.m3 { left: 116px; width: 10px; height: 460px; background: #E8E4DC; animation-delay: 1.6s; }
+.m4 { left: 144px; width: 10px; height: 400px; background: #1C1C1A; animation-delay: 2.4s; }
+.m5 { left: 172px; width: 10px; height: 440px; background: #E8E4DC; animation-delay: 3.2s; }
 
 .mh { position: absolute; left: 0; top: -14px; width: 10px; height: 18px; border-radius: 2px 2px 0 0; }
-.mh1 { background: #E84545; }
-.mh2 { background: #4A90D9; }
-.mh3 { background: #F5C542; }
-.mh4 { background: #6DBE7A; }
-.mh5 { background: #C84BC8; }
+.mh1 { background: #1C1C1A; }
+.mh2 { background: #E8E4DC; }
+.mh3 { background: #C8A97E; }
+.mh4 { background: #C8A97E; }
+.mh5 { background: #B8B8B8; }
 
 .flame {
   position: absolute;
