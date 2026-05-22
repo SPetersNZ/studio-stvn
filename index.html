@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio STVN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="/" class="nav-logo">
+      <!--
+        LOGO: Replace the line below with your logo file name if it's different.
+        Supported formats: PNG, SVG, JPG.
+        Place your logo file in the same folder as index.html on GitHub.
+        Example: <img src="logo.svg" alt="Studio STVN" />
+      -->
+      <img src="logo.png" alt="Studio STVN"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+      <span class="nav-logo-text" style="display:none;">Studio STVN</span>
+    </a>
+    <a href="mailto:hello@studiolstvn.com" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-eyebrow fade-in d1">New Zealand · Est. 2025</p>
+      <h1 class="hero-title fade-in d2">
+        Objects<br>made with<br><em>intention.</em>
+      </h1>
+      <p class="hero-sub fade-in d3">
+        Studio STVN is a creative studio dedicated to objects that deserve to be noticed. Beginning with a curated collection of artisan matches — flame, colour, form.
+      </p>
+      <div class="cta-group fade-in d4">
+        <a href="#notify" class="cta-primary">Be the first to know</a>
+        <a href="#about" class="cta-secondary">Our story</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <span class="hero-right-number">01</span>
+      <div class="match-illustration">
+        <div class="match m1"><div class="mh mh1"></div></div>
+        <div class="match m2"><div class="mh mh2"></div></div>
+        <div class="match m3">
+          <div class="mh mh3"></div>
+          <div class="flame"></div>
+        </div>
+        <div class="match m4"><div class="mh mh4"></div></div>
+        <div class="match m5"><div class="mh mh5"></div></div>
+      </div>
+      <span class="hero-right-label">The Match Collection</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- STRIP -->
+  <section class="strip" id="about">
+    <div class="strip-block">
+      <p class="strip-label">The Studio</p>
+      <h2 class="strip-heading">A creative practice rooted in craft</h2>
+      <p class="strip-body">Studio STVN exists at the intersection of design and everyday ritual. We create objects for people who believe the small things matter most.</p>
+    </div>
+    <div class="strip-block">
+      <p class="strip-label">The Product</p>
+      <h2 class="strip-heading">Matches, elevated</h2>
+      <p class="strip-body">Our debut collection reimagines the humble match — familiar, functional, and finally beautiful. Available in a range of considered colour combinations.</p>
+    </div>
+    <div class="strip-block">
+      <p class="strip-label">Coming soon</p>
+      <h2 class="strip-heading">The full collection launches soon</h2>
+      <p class="strip-body">Register below to receive early access, collection previews, and studio updates before we open to the public.</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- NOTIFY -->
+  <section class="notify" id="notify">
+    <div>
+      <h2 class="notify-heading">Be the first<br>to <em>light one.</em></h2>
+      <p class="notify-sub">
+        Leave your name and email and we'll reach out when the collection is ready — along with an exclusive early access offer.
+      </p>
+    </div>
+    <form class="notify-form" id="notifyForm">
+      <div>
+        <label for="fname">Your name</label>
+        <input type="text" id="fname" name="name" placeholder="First name" autocomplete="given-name" />
+      </div>
+      <div>
+        <label for="femail">Email address</label>
+        <input type="email" id="femail" name="email" placeholder="you@example.com" autocomplete="email" required />
+      </div>
+      <button type="submit" class="notify-submit">Notify me</button>
+      <p class="success-msg" id="successMsg">✦ &nbsp;You're on the list. We'll be in touch.</p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="/" class="footer-logo">
+      <!--
+        FOOTER LOGO: Same as nav — uses your logo file at a smaller size (24px tall).
+        Falls back to text if the image isn't found.
+      -->
+      <img src="logo.png" alt="Studio STVN"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+      <span class="footer-logo-text" style="display:none;">Studio STVN</span>
+    </a>
+    <span class="footer-copy">© 2025 Studio STVN. All rights reserved.</span>
+    <a href="mailto:hello@studiolstvn.com" class="footer-email">hello@studiolstvn.com</a>
+  </footer>
+
+  <script>
+    document.getElementById('notifyForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('.notify-submit');
+      const msg = document.getElementById('successMsg');
+      btn.style.display = 'none';
+      msg.style.display = 'block';
+    });
+  </script>
+
+</body>
+</html>
