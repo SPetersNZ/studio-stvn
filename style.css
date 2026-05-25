@@ -30,13 +30,26 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3rem;
+  padding: 2rem 3rem;
+  background: transparent;
+  transition: padding 0.4s ease, background 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease;
+}
+
+nav.scrolled {
+  padding: 1rem 3rem;
+  background: rgba(250, 248, 244, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--border);
+}
+
+nav.scrolled .nav-logo img {
+  height: 28px;
 }
 
 .nav-logo img {
-  height: 32px;
-  width: auto;
-  display: block;
+  height: 52px;
+  transition: height 0.4s ease;
 }
 
 .nav-logo-text {
