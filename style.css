@@ -401,6 +401,10 @@ footer {
   color: var(--muted);
 }
 
+.footer-center {
+  text-align: center;
+}
+
 .footer-email {
   font-size: 0.65rem;
   letter-spacing: 0.1em;
