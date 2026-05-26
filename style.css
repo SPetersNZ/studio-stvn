@@ -87,13 +87,13 @@ nav.scrolled .nav-logo img {
   position: relative;
 }
 
-.hero-eyebrow {
-  font-size: 0.65rem;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
-  color: var(--accent-dark);
-  margin-bottom: 1.5rem;
-}
+/*.hero-eyebrow {*/
+/*  font-size: 0.65rem;*/
+/*  letter-spacing: 0.35em;*/
+/*  text-transform: uppercase;*/
+/*  color: var(--accent-dark);*/
+/*  margin-bottom: 1.5rem;*/
+/*}*/
 
 .hero-title {
   font-family: 'Figtree', serif;
@@ -394,7 +394,8 @@ footer {
   color: var(--charcoal);
 }
 
-.footer-copy {
+.footer-copy,
+.footer-tagline {
   font-size: 0.65rem;
   letter-spacing: 0.1em;
   color: var(--muted);
