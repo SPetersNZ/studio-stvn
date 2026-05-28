@@ -1,11 +1,11 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --cream: #F6F3EB;
+  --cream: #F5F0E8;
   --warm-white: #FAF8F4;
-  --mint: C9CAAC;
   --charcoal: #1C1C1A;
   --mid: #5A5850;
+  --mint: #C9CAAC;
   --muted: #A09A8E;
   --accent: #C8A97E;
   --accent-dark: #8C6E45;
@@ -81,6 +81,7 @@ nav.scrolled .nav-logo img {
 }
 
 .hero-left {
+  background-color: var(--mint);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -107,7 +108,8 @@ nav.scrolled .nav-logo img {
 
 .hero-title em {
   font-style: italic;
-  color: var(--accent-dark);
+  /*color: var(--accent-dark);*/
+  color: var(--accent);
 }
 
 .hero-sub {
@@ -133,8 +135,7 @@ nav.scrolled .nav-logo img {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   text-decoration: none;
-  /*color: var(--warm-white);*/
-  color: var(--mint);
+  color: var(--warm-white);
   background: var(--charcoal);
   padding: 1rem 2.5rem;
   transition: background 0.3s, color 0.3s;
@@ -250,6 +251,7 @@ nav.scrolled .nav-logo img {
 
 /* ABOUT STRIP */
 .strip {
+  background-color: var(--mint);
   display: flex;
   align-items: stretch;
   padding: 5rem 3rem;
@@ -289,8 +291,7 @@ nav.scrolled .nav-logo img {
 /* NOTIFY */
 .notify {
   background: var(--charcoal);
-  /*color: var(--warm-white);*/
-  color: var(--mint);
+  color: var(--warm-white);
   padding: 6rem 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -337,8 +338,7 @@ nav.scrolled .nav-logo img {
   background: transparent;
   border: none;
   border-bottom: 1px solid rgba(250,248,244,0.25);
-  /*color: var(--warm-white);*/
-  color: var(--mint);
+  color: var(--warm-white);
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 0.85rem;
@@ -377,6 +377,7 @@ nav.scrolled .nav-logo img {
 
 /* FOOTER */
 footer {
+  background-color: var(--mint);
   padding: 2.5rem 3rem;
   display: flex;
   justify-content: space-between;
