@@ -5,7 +5,6 @@
   --warm-white: #FAF8F4;
   --charcoal: #1C1C1A;
   --mid: #5A5850;
-  --mint: #C9CAAC;
   --muted: #A09A8E;
   --accent: #C8A97E;
   --accent-dark: #8C6E45;
@@ -81,7 +80,6 @@ nav.scrolled .nav-logo img {
 }
 
 .hero-left {
-  background-color: var(--mint);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -108,8 +106,7 @@ nav.scrolled .nav-logo img {
 
 .hero-title em {
   font-style: italic;
-  /*color: var(--accent-dark);*/
-  color: var(--accent);
+  color: var(--accent-dark);
 }
 
 .hero-sub {
@@ -251,7 +248,6 @@ nav.scrolled .nav-logo img {
 
 /* ABOUT STRIP */
 .strip {
-  /*background-color: var(--mint);*/
   display: flex;
   align-items: stretch;
   padding: 5rem 3rem;
@@ -377,7 +373,6 @@ nav.scrolled .nav-logo img {
 
 /* FOOTER */
 footer {
-  background-color: var(--mint);
   padding: 2.5rem 3rem;
   display: flex;
   justify-content: space-between;
