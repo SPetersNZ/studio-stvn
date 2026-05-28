@@ -251,7 +251,7 @@ nav.scrolled .nav-logo img {
 
 /* ABOUT STRIP */
 .strip {
-  background-color: var(--mint);
+  /*background-color: var(--mint);*/
   display: flex;
   align-items: stretch;
   padding: 5rem 3rem;
